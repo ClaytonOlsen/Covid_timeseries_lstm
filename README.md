@@ -1,4 +1,4 @@
-# <a title="United States Covid-19 LSTM Time-series Model"> United States Covid-19 LSTM Time-series Model</a>
+# <a title="United States Covid-19 Activity LSTM Time-Series Model"> United States Covid-19 LSTM Time-series Model</a>
 
 The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. 
 This time series data form state and local governments and health departments have been compiled and can be found on [kaggle](https://www.kaggle.com/fireballbyedimyrnmom/us-counties-covid-19-dataset) to provide a complete record on the ongoing pandemic activity int he United States. 
