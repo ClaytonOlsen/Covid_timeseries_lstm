@@ -16,6 +16,8 @@ The dataset contained the following information for every state and US territory
 - cases: cumulative cases to the date
 - deaths: cumulitive deaths to the date
 
-For the model, we changed the cumulitive cases to daily new Covid cases and set the start date to 03/28/2020 where the the last state/terriory reported their first Covid case.
+For the model, we changed the cumulitive cases to daily new Covid cases and set the start date to 03/28/2020 where the the last state/terriory reported their first Covid case. Below displays the general trends of Covid across the United States.  
 
 > ![Covid Cases](https://github.com/ClaytonOlsen/Covid_timeseries_lstm/blob/main/images/covid_cases.png)
+
+We can see that there was a large collective increase in the Winter of 2020/2021 and has since been on the decrease with increased accessibility to vaccines. Some states have spikes of cases that cause different trajectories between states, but ultimately, the number of new cases is trending towards 0. 
