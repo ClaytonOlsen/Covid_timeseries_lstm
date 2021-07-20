@@ -18,4 +18,4 @@ The dataset contained the following information for every state and US territory
 
 For the model, we changed the cumulitive cases to daily new Covid cases and set the start date to 03/28/2020 where the the last state/terriory reported their first Covid case.
 
-> [!Covid Cases](https://github.com/ClaytonOlsen/Covid_timeseries_lstm/blob/main/images/covid_cases.pdf)
+> ![Covid Cases](https://github.com/ClaytonOlsen/Covid_timeseries_lstm/blob/main/images/covid_cases.pdf)
