@@ -1,5 +1,3 @@
-# Covid-19 Data - United States
-
 # <a title="United States Covid-19 LSTM Time-series Model"> United States Covid-19 LSTM Time-series Model</a>
 
 The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. 
