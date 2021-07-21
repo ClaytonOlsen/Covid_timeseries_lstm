@@ -20,4 +20,7 @@ For the model, we changed the cumulitive cases to daily new Covid cases and set 
 
 > ![Covid Cases](https://github.com/ClaytonOlsen/Covid_timeseries_lstm/blob/main/images/covid_cases.png)
 
-We can see that there was a large collective increase in the Winter of 2020/2021 and has since been on the decrease with increased accessibility to vaccines. Some states have spikes of cases that cause different trajectories between states, but ultimately, the number of new cases is trending towards 0. 
+We can see that there was a large collective increase in the Winter of 2020/2021 and has since been on the decrease with increased accessibility to vaccines. Some states have spikes of cases that cause different trajectories between states, but ultimately, the number of new cases is trending towards 0. The variation in state cases and large spikes due to outbreaks may phurt predictive accuracy.
+
+## Experimental Results
+
