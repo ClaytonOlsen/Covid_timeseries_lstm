@@ -24,3 +24,32 @@ We can see that there was a large collective increase in the Winter of 2020/2021
 
 ## Experimental Results
 
+For choosing the nodes, number of layers etc. we used:
+
+- Batch Size of 64, as is common
+- input layer with nuerons equal to the input size 55 (number of states)
+- output layer equal to the number of states
+- the nuerons for the hidden layer where estimated from the following equation
+$$
+N_h= \frac{N_s}{(\alpha * (N_i + N_o))}
+$$
+- N_i = Number of input nuerons
+- N_o = Number of output nuerons
+- N_s = Number of samples in training data set
+- $\alpha$  = An arbitrary scaling fator set at 5
+
+So, $N_h \approx 47$.
+
+The following picture show the trend of loss Function, Mean Squared Error, of actual data compared to predicted data:
+
+> ![Covid Cases](https://github.com/ClaytonOlsen/Covid_timeseries_lstm/blob/main/images/epoc_vs_accuracy.png)
+
+Since there is limited availble data, and some states experienced random spikes in covid cases apart from the general direction fo new cases across states, the predictive accuracy is fairly limited. 
+
+## Prediction
+
+The predicitions for the first 10 states is deisplayed below. The other 45 states can be found under images.
+
+> ![Covid Cases](https://github.com/ClaytonOlsen/Covid_timeseries_lstm/blob/main/images/states_1-10.png)
+
+
