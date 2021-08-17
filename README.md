@@ -30,9 +30,9 @@ For choosing the nodes, number of layers etc. we used:
 - input layer with nuerons equal to the input size 55 (number of states)
 - output layer equal to the number of states
 - the nuerons for the hidden layer where estimated from the following equation
-$$
-N_h= \frac{N_s}{(\alpha * (N_i + N_o))}
-$$
+
+$$N_h= \frac{N_s}{(\alpha * (N_i + N_o))}$$
+
 - N_i = Number of input nuerons
 - N_o = Number of output nuerons
 - N_s = Number of samples in training data set
