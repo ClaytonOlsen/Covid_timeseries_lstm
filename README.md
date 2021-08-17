@@ -36,9 +36,9 @@ For choosing the nodes, number of layers etc. we used:
 - N_i = Number of input nuerons
 - N_o = Number of output nuerons
 - N_s = Number of samples in training data set
-- $\alpha$  = An arbitrary scaling fator set at 5
+- <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\alpha" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;\alpha" title="\large \alpha" /></a>  = An arbitrary scaling fator set at 5
 
-So, $N_h \approx 47$.
+So, <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;N_h&space;\approx&space;47" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;N_h&space;\approx&space;47" title="\large N_h \approx 47" /></a>.
 
 The following picture show the trend of loss Function, Mean Squared Error, of actual data compared to predicted data:
 
