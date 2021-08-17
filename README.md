@@ -31,6 +31,8 @@ For choosing the nodes, number of layers etc. we used:
 - output layer equal to the number of states
 - the nuerons for the hidden layer where estimated from the following equation
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;N_h=&space;\frac{N_s}{(\alpha&space;*&space;(N_i&space;&plus;&space;N_o))}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;N_h=&space;\frac{N_s}{(\alpha&space;*&space;(N_i&space;&plus;&space;N_o))}" title="N_h= \frac{N_s}{(\alpha * (N_i + N_o))}" /></a>
+
 $$N_h= \frac{N_s}{(\alpha * (N_i + N_o))}$$
 
 - N_i = Number of input nuerons
